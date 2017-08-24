@@ -1,23 +1,40 @@
 # java
 java抓取网络图片代码（不太成熟，大多数网页可以）
+
 package com.liuchang;
 
 import java.io.ByteArrayOutputStream;
+
 import java.io.File;
+
 import java.io.FileOutputStream;
+
 import java.io.FileWriter;
+
 import java.io.IOException;
+
 import java.io.InputStream;
+
 import java.io.OutputStream;
+
 import java.io.Writer;
+
 import java.net.HttpURLConnection;
+
 import java.net.MalformedURLException;
+
 import java.net.URL;
+
 import java.net.URLConnection;
+
 import java.net.URLDecoder;
+
 import java.util.ArrayList;
+
 import java.util.List;
+
 import java.util.regex.Matcher;
+
 import java.util.regex.Pattern;
 
 public class ImageDownLoad {
